@@ -36,9 +36,9 @@ public int overallScore()
 {
    int s;
    if (score1 < score2)
-      s = score1; //Original Statement: s = score2; Function works by subtracting lowest score from total of all 3 scores. s should not be assigned to highest value. Correction: s = score1
+      s = score1; 
    else
-      s = score2; //Original Statement: s = score1; To continue fix of statement at line 40, s should be assigned to lowest value in comparison. Correction: s = score2
+      s = score2; 
    if (s > score3)
       s = score3;
    s = (score1+score2+score3) - s;   
